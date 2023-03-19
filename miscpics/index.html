@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slideshow Example</title>
+	<style>
+		.slideshow-container {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 340px;
+			height: 257px;
+			overflow: hidden;
+		}
+
+		.slideshow-container img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+
+		.slideshow-container img.active {
+			opacity: 1;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="slideshow-container">
+    <img src="Fo24jteXEAIMYWx.jpg?t=<?=rand()?>" class="active">
+    <img src="unknown (6).png?t=<?=rand()?>">
+    <img src="unknown (5).png?t=<?=rand()?>">
+    <img src="unknown (4).png?t=<?=rand()?>">
+    <img src="unknown (3).png?t=<?=rand()?>">
+    <img src="unknown (2).png?t=<?=rand()?>">
+    <img src="unknown (1).png?t=<?=rand()?>">
+    <img src="Screenshot_2022-04-22_10.18.03_PM.png?t=<?=rand()?>">
+    <img src="Screenshot_2022-04-22_10.18.25_PM.png?t=<?=rand()?>">
+    <img src="Screenshot_2022-04-22_10.20.48_PM.png?t=<?=rand()?>">
+    <img src="Screenshot_2022-04-22_10.21.12_PM.png?t=<?=rand()?>">
+    <img src="Screenshot_20220726-211030_Discord.jpg?t=<?=rand()?>">
+    <img src="the_wizard.png?t=<?=rand()?>">
+    <img src="typetypetype.jpg?t=<?=rand()?>">
+    <img src="Screenshot_2022-04-22_10.17.28_PM.png?t=<?=rand()?>">
+    <img src="Screenshot_2022-04-22_10.15.35_PM.png?t=<?=rand()?>">
+    <img src="Screenshot_2022-04-22_10.14.25_PM.png?t=<?=rand()?>">
+    <img src="Screenshot_2022-04-22_10.12.18_PM.png?t=<?=rand()?>">
+    <img src="oh_dear.png?t=<?=rand()?>">
+    <img src="masonstare.png?t=<?=rand()?>">
+    <img src="masonregret.png?t=<?=rand()?>">
+    <img src="masonevil.png?t=<?=rand()?>">
+    <img src="masonderp.jpg?t=<?=rand()?>">
+    <img src="image (7).jpeg?t=<?=rand()?>">
+    <img src="image (8).jpeg?t=<?=rand()?>">
+    <img src="image (9).jpeg?t=<?=rand()?>">
+    <img src="image (10).jpeg?t=<?=rand()?>">
+    <img src="image.jpeg?t=<?=rand()?>">
+    <img src="image0-8.jpeg?t=<?=rand()?>">
+    <img src="mason_is_bri_ish.jpg?t=<?=rand()?>">
+    <img src="masonblack.png?t=<?=rand()?>">
+    <img src="image (6).jpeg?t=<?=rand()?>">
+    <img src="image (5).jpeg?t=<?=rand()?>">
+    <img src="image (4).jpeg?t=<?=rand()?>">
+    <img src="image (3).jpeg?t=<?=rand()?>">
+    <img src="image (2).jpeg?t=<?=rand()?>">
+    <img src="image (1).jpeg?t=<?=rand()?>">
+    <img src="Fj_gdR0WAAQLmTq.jpeg?t=<?=rand()?>">
+    <img src="FczHQ8CXwAAEFjJ.jpg?t=<?=rand()?>">
+    <img src="20220617_192807.jpg?t=<?=rand()?>">
+    <img src="20220617_192835.jpg?t=<?=rand()?>">
+    <img src="20220920_083949.jpg?t=<?=rand()?>">
+    <img src="at_dead_of_night_moment.png?t=<?=rand()?>">
+    <img src="crisis.jpg?t=<?=rand()?>">
+    <img src="death.png?t=<?=rand()?>">
+    <img src="death_but_again.png?t=<?=rand()?>">
+    <img src="download.png?t=<?=rand()?>">
+    <img src="20220617_192742.jpg?t=<?=rand()?>">
+    <img src="20220505_131332.jpg?t=<?=rand()?>">
+    <img src="20220420_113919.jpg?t=<?=rand()?>">
+    <img src="20220412_125248.jpg?t=<?=rand()?>">
+    <img src="20220412_125232.jpg?t=<?=rand()?>">
+    <img src="20220412_090420.jpg?t=<?=rand()?>">
+    <img src="20220412_090223.jpg?t=<?=rand()?>">
+    <img src="20220412_090059.jpg?t=<?=rand()?>">
+    <img src="20220412_090021.jpg?t=<?=rand()?>">
+    <img src="20220328_111418.jpg?t=<?=rand()?>">
+    <img src="20220328_111455.jpg?t=<?=rand()?>">
+    <img src="20220412_085003.jpg?t=<?=rand()?>">
+    <img src="20220412_085143.jpg?t=<?=rand()?>">
+    <img src="20220412_085239.jpg?t=<?=rand()?>">
+    <img src="20220412_085353.jpg?t=<?=rand()?>">
+    <img src="20220412_085752.jpg?t=<?=rand()?>">
+    <img src="20220412_085943.jpg?t=<?=rand()?>">
+    <img src="20220308_124928.jpg?t=<?=rand()?>">
+    <img src="20220303_104112.jpg?t=<?=rand()?>">
+    <img src="20220302_121810.jpg?t=<?=rand()?>">
+    <img src="20220301_134404.jpg?t=<?=rand()?>">
+    <img src="20220225_115828.jpg?t=<?=rand()?>">
+    <img src="20220222_085604.jpg?t=<?=rand()?>">
+    <img src="20220119_113804.jpg?t=<?=rand()?>">
+    <img src="20220119_113747.jpg?t=<?=rand()?>">
+    <img src="20220119_113729.jpg?t=<?=rand()?>">
+    <img src="2021-06-17_16-39-33_782.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-53-00_588.png?t=<?=rand()?>">
+    <img src="20210505_192643.jpg?t=<?=rand()?>">
+    <img src="20210506_204913.jpg?t=<?=rand()?>">
+    <img src="20210513_113647.jpg?t=<?=rand()?>">
+    <img src="20210530_183828.jpg?t=<?=rand()?>">
+    <img src="20220117_113848.jpg?t=<?=rand()?>">
+    <img src="20220119_113700.jpg?t=<?=rand()?>">
+    <img src="20220119_113725.jpg?t=<?=rand()?>">
+    <img src="2021-06-17_16-39-29_879.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-39-24_808.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-24-41_273.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-24-31_331.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-22-16_372.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-10-37_606.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-10-35_871.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-10-31_634.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-10-12_251.png?t=<?=rand()?>">
+    <img src="2021-06-17_15-25-57_891.png?t=<?=rand()?>">
+    <img src="2021-06-17_15-26-02_595.png?t=<?=rand()?>">
+    <img src="2021-06-17_15-28-42_928.png?t=<?=rand()?>">
+    <img src="2021-06-17_15-28-44_263.png?t=<?=rand()?>">
+    <img src="2021-06-17_15-42-48_928.png?t=<?=rand()?>">
+    <img src="2021-06-17_15-42-50_029.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-09-46_428.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-09-52_633.png?t=<?=rand()?>">
+    <img src="2021-06-17_16-09-59_706.png?t=<?=rand()?>">
+    <img src="troll_face__traced__by_ordinarycarrot16_deogqv8-pre.jpg?t=<?=rand()?>">
+    <img src="favicon.png?t=<?=rand()?>">
+    <img src="thumbnail.png?t=<?=rand()?>">
+    <img src="ezgif.com-gif-maker.gif?t=<?=rand()?>">
+    <img src="image.png?t=<?=rand()?>">
+    <img src="FlqmxNWX0AEZPC9.png?t=<?=rand()?>">
+    <img src="Fo9RChMWIA0QzJB.png?t=<?=rand()?>">
+    <img src="FpDnyM8XEAInzV6.jpg?t=<?=rand()?>">
+    <img src="FpGQTjhakAAcr6k.jpg?t=<?=rand()?>">
+    <img src="Fj9PdjWWAAc-X6c.jpg?t=<?=rand()?>">
+    <img src="FkCSeIbXwBgT1We.jpg?t=<?=rand()?>">
+    <img src="FkCr4HgX0AA8sH9.jpg?t=<?=rand()?>">
+    <img src="FktM-WEXkAA390G.jpg?t=<?=rand()?>">
+    <img src="Fl7RM3KWIAMZ4MU.jpg?t=<?=rand()?>">
+    <img src="FoybK-QWAAEgE6x.jpg?t=<?=rand()?>">
+    <img src="Fm2vEM8WYAAUPNS.jpg?t=<?=rand()?>">
+    <img src="Fl7RM3DWIAMJps1.jpg?t=<?=rand()?>">
+    <img src="FmYPZdpXEAsJapG.jpg?t=<?=rand()?>">
+    <img src="Fmte70BWAAAUNyJ.jpg?t=<?=rand()?>">
+    <img src="FmwqHzeWAAEQcLN.jpg?t=<?=rand()?>">
+    <img src="Fmxh2KpWYAM6aKf.jpg?t=<?=rand()?>">
+    <img src="Fl7RM3FXEAIR_i7.jpg?t=<?=rand()?>">
+    <img src="Fo2vhEXX0AEIy7C.jpg?t=<?=rand()?>">
+    <img src="unknown.png?t=<?=rand()?>">
+	</div>
+
+	<script>
+		var slideIndex = 0;
+		var slides = document.getElementsByTagName("img");
+		slides[slideIndex].classList.add("active");
+		setInterval(nextSlide, 3000);
+
+		function shuffleArray(array) {
+			for (var i = array.length - 1; i > 0; i--) {
+				var j = Math.floor(Math.random() * (i + 1));
+				var temp = array[i];
+				array[i] = array[j];
+				array[j] = temp;
+			}
+			return array;
+		}
+
+		function nextSlide() {
+			slides[slideIndex].classList.remove("active");
+			slideIndex = (slideIndex + 1) % slides.length;
+			slides[slideIndex].classList.add("active");
+
+			if (slideIndex === 0) {
+				shuffleArray(slides);
+			}
+		}
+	</script>
+
+</body>
+</html>
